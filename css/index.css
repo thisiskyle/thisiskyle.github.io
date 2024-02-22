@@ -1,0 +1,35 @@
+body {
+    background-color: transparent;
+    color: #000;
+    font-family: "Calibri Light", sans-serif;
+    margin: 10%;
+    top: 0;
+    padding: 0;
+    border: 0;
+    z-index: 0;
+}
+.greeting {
+    font-size: 40px;
+    color: gray;
+}
+
+.links, link {
+    font-size: 20px;
+    text-decoration: none;
+    color: gray;
+}
+
+#projects-link:before {
+    content: 'Github';
+}
+
+#projects-link:hover:before {
+    content: '// Github'
+}
+
+#resume-link:before {
+    content: 'Resumé';
+}
+#resume-link:hover:before {
+    content: '// Resumé'
+}
